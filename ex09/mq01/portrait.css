@@ -4,5 +4,5 @@
 
 body{
     background-image: url("../imagens/imagens/cev-portrait.jpg");   
-    background-position: contain;
+    background-size: center bottom;
 }
