@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>listas</title>
+</head>
+<body>
+    <form action="cadastro.php">
+        <p>
+            <label for="ilist">Escolha: </label>
+            <select name="list" id="ilist">
+                <option value="" selected>default</option>
+                <optgroup label="testes1">
+                    <option value="">teste</option>
+                    <option value="">teste2</option>
+                    <option value="">teste3</option>
+                </optgroup>
+                <optgroup label="testes2">
+                    <option value="">teste</option>
+                    <option value="">teste2</option>
+                    <option value="">teste3</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iteste">Escolha: </label>
+            <input type="text" name="text" id="itext" list="lst">
+            <datalist id="lst">
+                <option value="teste1"></option>
+                <option value="teste2"></option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imsg"></label>
+            <textarea name="" id="imsg" cols="30" rows="2"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

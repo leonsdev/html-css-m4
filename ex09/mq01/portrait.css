@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+/*para retratos*/
+
+body{
+    background-image: url("../imagens/imagens/cev-portrait.jpg");   
+    background-position: contain;
+}

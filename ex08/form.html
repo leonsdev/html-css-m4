@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes com output</title>
+</head>
+<body>
+    <h1>Exeplo de formulário</h1>
+    
+    <form action="" autocomplete="on" method="post">
+        <p>
+            <label for="irage">Escolha</label>
+            <input type="range" name="range" id="irange" min="0" max="10" oninput="out.innerHTML = Number(irange.value)">
+            <output id="out">5</output>
+        </p>
+        <p>
+            <p>
+                <h1>Soma</h1>
+                <label for="in1">n1: </label>
+                <input type="range" name="n1" id="in1" oninput="out2.innerHTML = Number(n1.value + n2.value)">
+            </p>
+
+            <p>
+                <label for="in2">n2: </label>
+                <input type="range" name="n2" id="in2" oninput="out2.innerHTML = Number(n1.value + n2.value)">
+            </p>
+
+            <output id="out2">0</output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>    
+   
+</body>
+</html>
