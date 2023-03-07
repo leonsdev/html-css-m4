@@ -11,6 +11,11 @@
         width: 100vw;
         height: 100vh;
     }    
+    body{
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
     h1{
         text-align: center;
         margin-top: 20px;
@@ -29,10 +34,7 @@
 }
 @media screen and (max-width: 768px){
     body{
-        background-image: url(../imagens/back-phone.jpg);
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
+        background-image: url(../imagens/back-phone.jpg);      
     }
     #pc{display: none;}
     #print{display: none;}
