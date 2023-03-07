@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
     <link rel="stylesheet" href="media/style.css">
+    <link rel="stylesheet" href="./media/media-query.css">
     <title>Tela de login</title>
 </head>
 <body>
@@ -15,8 +17,21 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem vindo(a) novamente. Faça login para acessar sua conta e poder configurar seu ambiente.</p>
-                <form action="login.php" method="post">
-                    
+                <form action="login.php" method="post" autocomplete="on"> 
+                    <div class="campo">
+                        <span id="amburguer" class="material-symbols-outlined">person</span>
+                        <input type="email" name="email" id="iemail" required placeholder="seu e-mail" autocomplete="email" minlength="5" maxlength="25" size="25px">
+                        <label for="iemail">E-mail</label>
+                    </div>
+                    <div class="campo">
+                        <span id="amburguer" class="material-symbols-outlined">vpn_key</span>
+                        <input type="password" name="senha" id="isenha" required placeholder="sua senha" autocomplete="current-password" minlength="8" maxlength="20" size="25px">
+                        <label for="isenha">Senha</label>
+                    </div>
+                    <div>
+                        <input type="submit" name="enviar" id="ienviar" value="Enviar">
+                        <a href="#" id="botao">Esqueci a senha</a>
+                    </div>
                 </form>
             </div>
         </section>
