@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./media/all.css">
+    <link rel="stylesheet" href="./media/cell.css">
+    <link rel="stylesheet" href="./media/desktop.css">
+    <link rel="stylesheet" href="./media/print.css">
+    <link rel="stylesheet" href="./media/tablet.css">
+    <link rel="stylesheet" href="./media/tv.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Projeto menu responsivo</title>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <span id="itens" class="material-symbols-outlined" onclick="action()">menu</span>
+        <menu id="menu">             
+            <ul >               
+                <li><a href="#">OPÇÃO 1</a></li>
+                <li><a href="#">OPÇÃO 2</a></li>
+                <li><a href="#">OPÇÃO 3</a></li>
+                <li><a href="#">OPÇÃO 4</a></li>
+                <li><a href="#">OPÇÃO 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <section id="teste">
+        <main>
+            <h2>Testando media query</h2>
+            <article>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ratione modi facilis fuga ipsa voluptatum ipsam doloremque sunt, libero quaerat fugit placeat esse quo natus dolor totam praesentium repellat magni. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, similique et? Laborum id doloremque, quasi quaerat cumque ea molestias mollitia sit, error repellendus earum laudantium. Hic repellat dignissimos nisi repudiandae.
+                </p>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, modi. Nesciunt iste ea quibusdam iusto, deleniti at. Vitae temporibus incidunt, velit nisi voluptates repellat non ea perspiciatis est, repellendus optio?
+                </p>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere labore voluptas ullam nisi inventore nobis eum reiciendis, ipsum veritatis distinctio quidem ut ipsa laborum tenetur placeat odit, blanditiis id quae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti vero illum aliquam esse laborum ea magnam minima assumenda incidunt. Odit inventore est provident cupiditate eligendi unde quos quia consectetur qui?
+                </p>
+            </article>
+        </main>
+    </section>
+    <footer>
+
+    </footer>
+    <script>
+        function action(){
+            if(menu.style.display == 'none'){
+                menu.style.display = 'block'
+            }else{
+                menu.style.display = 'none'
+            }
+        }
+    </script>
+</body>
+</html>
