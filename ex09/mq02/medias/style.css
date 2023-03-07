@@ -27,7 +27,7 @@
         margin: auto;
     }
 }
-@media screen and (orientation: portrait){
+@media screen and (max-width: 768px){
     body{
         background-image: url(../imagens/back-phone.jpg);
         background-repeat: no-repeat;
