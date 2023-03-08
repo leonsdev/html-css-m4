@@ -24,7 +24,7 @@ section#login{
     left: 50%;
     
     background-color: white;
-    width: 320px;
+    width: 250px;
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
@@ -110,7 +110,7 @@ div.campo input{
     padding: 10px;
     border-radius: 5px;
 
-    transform: translate(-1px, -10px);
+    transform: translate(-1px, -11px);
 }
 div.campo input:focus-within{
     background-color: #dedede;
